@@ -1,0 +1,59 @@
+{
+  "_comment": "Liste des sites officiels à surveiller pour le Midea PortaSplit 3,5 kW / 12000 BTU (~999€). Ajoute/retire des entrées librement. Les mots-clés sont cherchés en minuscules dans le texte visible de la page. Si un mot-clé 'out_of_stock' est trouvé -> rupture. Sinon si un mot-clé 'in_stock' est trouvé -> en stock. Sinon -> statut inconnu (à vérifier manuellement, ajuste les mots-clés).",
+
+  "product_name": "Midea PortaSplit 3,5 kW / 12000 BTU",
+
+  "sites": [
+    {
+      "name": "Leroy Merlin",
+      "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "être averti", "actuellement indisponible"],
+      "in_stock_keywords": ["ajouter au panier", "disponible dans la plupart de nos magasins", "en stock"]
+    },
+    {
+      "name": "Castorama",
+      "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "être averti", "produit épuisé"],
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"]
+    },
+    {
+      "name": "Amazon.fr",
+      "url": "https://www.amazon.fr/Climatiseur-Climatisation-rafra%C3%AEchisseur-d%C3%A9shumidificateur-ventilateur/dp/B0CY2YW8BT",
+      "out_of_stock_keywords": ["actuellement indisponible", "nous ne savons pas quand cet article sera de nouveau approvisionn", "recevez un email"],
+      "in_stock_keywords": ["ajouter au panier", "acheter maintenant", "en stock"]
+    },
+    {
+      "name": "ManoMano",
+      "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "produit épuisé"],
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"]
+    },
+    {
+      "name": "Ventigo",
+      "url": "https://www.ventigo.fr/fr_FR/p/climatiseur-mobile-split-midea-portasplit-35-kw/38775/",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "épuisé", "être prévenu"],
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"]
+    },
+    {
+      "name": "Darty",
+      "url": "https://www.darty.com/nav/recherche/portasplit",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "en attente de réapprovisionnement"],
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"],
+      "_note": "URL de recherche car la fiche produit change souvent de référence chez Darty. À remplacer par l'URL produit exacte dès que possible."
+    },
+    {
+      "name": "Boulanger",
+      "url": "https://www.boulanger.com/c/climatiseur/brand~midea",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "en attente de réapprovisionnement"],
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"],
+      "_note": "URL de catégorie (pas de fiche PortaSplit trouvée en direct au moment de la config). À affiner dès qu'une fiche produit dédiée est identifiée."
+    },
+    {
+      "name": "Cdiscount",
+      "url": "https://www.cdiscount.com/search/10/portasplit.html",
+      "out_of_stock_keywords": ["rupture de stock", "indisponible", "produit épuisé"],
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"],
+      "_note": "URL de recherche, à remplacer par l'URL produit exacte."
+    }
+  ]
+}
