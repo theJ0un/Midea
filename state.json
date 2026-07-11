@@ -1,42 +1,42 @@
 {
   "Leroy Merlin": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-10T21:36:18.919978+00:00",
+    "last_checked": "2026-07-11T06:04:20.260165+00:00",
     "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html"
   },
   "Castorama": {
     "status": "IN_STOCK",
-    "last_checked": "2026-07-10T21:36:30.881894+00:00",
+    "last_checked": "2026-07-11T06:04:31.017514+00:00",
     "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd"
   },
   "Amazon.fr": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-10T21:36:40.316863+00:00",
+    "last_checked": "2026-07-11T06:04:38.946096+00:00",
     "url": "https://www.amazon.fr/Climatiseur-Climatisation-rafra%C3%AEchisseur-d%C3%A9shumidificateur-ventilateur/dp/B0CY2YW8BT"
   },
   "ManoMano": {
     "status": "ERROR",
-    "last_checked": "2026-07-10T21:37:15.660247+00:00",
+    "last_checked": "2026-07-11T06:05:15.513397+00:00",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
   "Ventigo": {
     "status": "IN_STOCK",
-    "last_checked": "2026-07-10T21:37:29.679255+00:00",
+    "last_checked": "2026-07-11T06:05:26.826965+00:00",
     "url": "https://www.ventigo.fr/fr_FR/p/climatiseur-mobile-split-midea-portasplit-35-kw/38775/"
   },
   "Darty": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-10T21:37:36.476146+00:00",
+    "last_checked": "2026-07-11T06:05:34.972875+00:00",
     "url": "https://www.darty.com/nav/recherche/portasplit"
   },
   "Boulanger": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-10T21:37:44.580103+00:00",
+    "last_checked": "2026-07-11T06:05:43.708515+00:00",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea"
   },
   "Cdiscount": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-10T21:37:56.483046+00:00",
+    "last_checked": "2026-07-11T06:05:55.815699+00:00",
     "url": "https://www.cdiscount.com/search/10/portasplit.html"
   }
 }
