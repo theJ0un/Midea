@@ -158,3 +158,15 @@ Call log:
 [2026-07-11 17:44:11 UTC] Boulanger: UNKNOWN
 [2026-07-11 17:44:29 UTC] Cdiscount: UNKNOWN
 [2026-07-11 17:44:35 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-11 20:30:43 UTC] Leroy Merlin: UNKNOWN
+[2026-07-11 20:30:52 UTC] Castorama: IN_STOCK
+[2026-07-11 20:31:01 UTC] Amazon.fr: UNKNOWN
+[2026-07-11 20:31:35 UTC] ManoMano: erreur de chargement (Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402", waiting until "networkidle"
+)
+[2026-07-11 20:31:47 UTC] Ventigo: IN_STOCK
+[2026-07-11 20:31:54 UTC] Darty: UNKNOWN
+[2026-07-11 20:32:02 UTC] Boulanger: UNKNOWN
+[2026-07-11 20:32:13 UTC] Cdiscount: UNKNOWN
+[2026-07-11 20:32:17 UTC] Aucun nouveau retour en stock détecté.
