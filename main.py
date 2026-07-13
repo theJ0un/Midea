@@ -63,38 +63,10 @@ def save_json(path: Path, data) -> None:
 
 def check_site_status(page, site: dict) -> str:
     """Charge la page et retourne IN_STOCK / OUT_OF_STOCK / UNKNOWN."""
-    page.goto(site["url"], wait_until="networkidle", timeout=30000)
-    # Laisse le temps aux widgets de stock (souvent chargés en JS après le rendu initial) de s'afficher
-    page.wait_for_timeout(2500)
-
-    # Certains sites n'affichent la vraie disponibilité qu'après avoir renseigné
-    # un code postal. Si sites.json le prévoit, on le fait ici. Deux méthodes
-    # de repérage du champ sont supportées : par data-testid, ou par placeholder
-    # (avec éventuellement un bouton à cliquer d'abord pour ouvrir le champ).
-    if site.get("postal_code_value"):
-        try:
-            trigger_selector = site.get("geoloc_trigger_selector")
-            if trigger_selector:
-                page.locator(trigger_selector).click()
-                page.wait_for_timeout(1000)
-
-            if site.get("postal_code_input_testid"):
-                field = page.locator(f'[data-testid="{site["postal_code_input_testid"]}"]')
-            elif site.get("postal_code_input_placeholder"):
-                field = page.get_by_placeholder(site["postal_code_input_placeholder"])
-            else:
-                field = None
-
-            if field is not None:
-                field.fill(site["postal_code_value"])
-                submit_text = site.get("postal_code_submit_text")
-                if submit_text:
-                    page.get_by_role("button", name=submit_text).click()
-                else:
-                    field.press("Enter")
-                page.wait_for_timeout(2500)
-        except Exception as e:
-            log(f"{site['name']}: impossible de renseigner le code postal ({e})")
+    page.goto(site["url"], wait_until="domcontentloaded", timeout=45000)
+    # Laisse largement le temps au JS de finir de peupler la page
+    # (bouton stock, bandeau rupture, etc. arrivent souvent après le chargement initial)
+    page.wait_for_timeout(6000)
 
     text = page.inner_text("body").lower()
 
@@ -107,7 +79,6 @@ def check_site_status(page, site: dict) -> str:
             return STATUS_IN_STOCK
 
     return STATUS_UNKNOWN
-
 
 def send_email_notification(subject: str, body: str) -> None:
     smtp_host = os.environ.get("SMTP_HOST")
