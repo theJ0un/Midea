@@ -67,6 +67,20 @@ def check_site_status(page, site: dict) -> str:
     page.goto(site["url"], wait_until="networkidle", timeout=30000)
     # Laisse le temps aux widgets de stock (souvent chargés en JS après le rendu initial) de s'afficher
     page.wait_for_timeout(2500)
+
+    # Certains sites (ex. Castorama) n'affichent la vraie disponibilité qu'après
+    # avoir renseigné un code postal. Si sites.json le prévoit, on le fait ici.
+    if site.get("postal_code_input_testid"):
+        try:
+            field = page.locator(f'[data-testid="{site["postal_code_input_testid"]}"]')
+            field.fill(site.get("postal_code_value", ""))
+            submit_text = site.get("postal_code_submit_text")
+            if submit_text:
+                page.get_by_role("button", name=submit_text).click()
+            page.wait_for_timeout(2500)
+        except Exception as e:
+            log(f"{site['name']}: impossible de renseigner le code postal ({e})")
+
     text = page.inner_text("body").lower()
 
     for kw in site.get("out_of_stock_keywords", []):
