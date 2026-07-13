@@ -434,3 +434,29 @@ Call log:
 [2026-07-13 15:48:07 UTC] Fnac: UNKNOWN
 [2026-07-13 15:48:18 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-13 15:48:24 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-13 15:52:47 UTC] Leroy Merlin: UNKNOWN
+[2026-07-13 15:53:30 UTC] Castorama: impossible de renseigner le code postal (Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]")
+)
+[2026-07-13 15:53:30 UTC] Castorama: IN_STOCK
+[2026-07-13 15:53:37 UTC] Amazon.fr: UNKNOWN
+[2026-07-13 15:54:13 UTC] ManoMano: erreur de chargement (Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402", waiting until "networkidle"
+)
+[2026-07-13 15:54:27 UTC] Ventigo: IN_STOCK
+[2026-07-13 15:55:03 UTC] Darty: impossible de renseigner le code postal (Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("[data-automation-id=\"localisation_button\"]")
+)
+[2026-07-13 15:55:03 UTC] Darty: UNKNOWN
+[2026-07-13 15:55:10 UTC] Boulanger: UNKNOWN
+[2026-07-13 15:55:19 UTC] Cdiscount: UNKNOWN
+[2026-07-13 15:55:27 UTC] Fnac: UNKNOWN
+[2026-07-13 15:55:36 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-13 15:55:42 UTC] Midea PortaSplit 3,5 kW / 12000 BTU vient de repasser en stock sur :
+
+- Castorama : https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd
+[2026-07-13 15:55:43 UTC] Email envoyé à jounaid.maurice@gmail.com : 🟢 Midea PortaSplit 3,5 kW / 12000 BTU en stock !
+[2026-07-13 15:55:43 UTC] Notification push envoyée.
