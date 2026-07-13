@@ -336,3 +336,21 @@ Call log:
 [2026-07-13 14:54:52 UTC] Fnac: UNKNOWN
 [2026-07-13 14:55:00 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-13 14:55:06 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-13 15:02:06 UTC] Leroy Merlin: UNKNOWN
+[2026-07-13 15:02:48 UTC] Castorama: impossible de renseigner le code postal (Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]")
+)
+[2026-07-13 15:02:48 UTC] Castorama: IN_STOCK
+[2026-07-13 15:02:57 UTC] Amazon.fr: UNKNOWN
+[2026-07-13 15:03:33 UTC] ManoMano: erreur de chargement (Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402", waiting until "networkidle"
+)
+[2026-07-13 15:03:47 UTC] Ventigo: IN_STOCK
+[2026-07-13 15:03:57 UTC] Darty: UNKNOWN
+[2026-07-13 15:04:04 UTC] Boulanger: UNKNOWN
+[2026-07-13 15:04:13 UTC] Cdiscount: UNKNOWN
+[2026-07-13 15:04:23 UTC] Fnac: UNKNOWN
+[2026-07-13 15:04:33 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-13 15:04:37 UTC] Aucun nouveau retour en stock détecté.
