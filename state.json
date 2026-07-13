@@ -1,42 +1,42 @@
 {
   "Leroy Merlin": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-13T14:41:39.274311+00:00",
+    "last_checked": "2026-07-13T14:47:45.420942+00:00",
     "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html"
   },
   "Castorama": {
     "status": "IN_STOCK",
-    "last_checked": "2026-07-13T14:41:53.762083+00:00",
+    "last_checked": "2026-07-13T14:48:25.145096+00:00",
     "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd"
   },
   "Amazon.fr": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-13T14:42:03.134793+00:00",
+    "last_checked": "2026-07-13T14:48:32.189886+00:00",
     "url": "https://www.amazon.fr/Climatiseur-Climatisation-rafra%C3%AEchisseur-d%C3%A9shumidificateur-ventilateur/dp/B0CY2YW8BT"
   },
   "ManoMano": {
     "status": "ERROR",
-    "last_checked": "2026-07-13T14:42:37.523261+00:00",
+    "last_checked": "2026-07-13T14:49:08.628665+00:00",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
   "Ventigo": {
     "status": "IN_STOCK",
-    "last_checked": "2026-07-13T14:42:51.827930+00:00",
+    "last_checked": "2026-07-13T14:49:21.933153+00:00",
     "url": "https://www.ventigo.fr/fr_FR/p/climatiseur-mobile-split-midea-portasplit-35-kw/38775/"
   },
   "Darty": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-13T14:43:00.193624+00:00",
-    "url": "https://www.darty.com/nav/recherche/portasplit"
+    "last_checked": "2026-07-13T14:49:29.018032+00:00",
+    "url": "https://www.darty.com/nav/achat/gros_electromenager/chauffage_climatisation/climatiseur/midea_mmcs-12hrn8-qrd0.html"
   },
   "Boulanger": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-13T14:43:07.782615+00:00",
+    "last_checked": "2026-07-13T14:49:35.842121+00:00",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea"
   },
   "Cdiscount": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-13T14:43:18.155438+00:00",
+    "last_checked": "2026-07-13T14:49:45.774648+00:00",
     "url": "https://www.cdiscount.com/search/10/portasplit.html"
   }
 }
