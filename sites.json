@@ -14,7 +14,10 @@
       "name": "Castorama",
       "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd",
       "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "être averti", "produit épuisé"],
-      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"]
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"],
+      "postal_code_input_testid": "postcode-input",
+      "postal_code_value": "94700",
+      "postal_code_submit_text": "Ajouter"
     },
     {
       "name": "Amazon.fr",
@@ -36,10 +39,9 @@
     },
     {
       "name": "Darty",
-      "url": "https://www.darty.com/nav/recherche/portasplit",
+      "url": "https://www.darty.com/nav/achat/gros_electromenager/chauffage_climatisation/climatiseur/midea_mmcs-12hrn8-qrd0.html",
       "out_of_stock_keywords": ["rupture de stock", "indisponible", "être alerté", "en attente de réapprovisionnement"],
-      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"],
-      "_note": "URL de recherche car la fiche produit change souvent de référence chez Darty. À remplacer par l'URL produit exacte dès que possible."
+      "in_stock_keywords": ["ajouter au panier", "en stock", "disponible"]
     },
     {
       "name": "Boulanger",
