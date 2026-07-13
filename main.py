@@ -67,16 +67,32 @@ def check_site_status(page, site: dict) -> str:
     # Laisse le temps aux widgets de stock (souvent chargés en JS après le rendu initial) de s'afficher
     page.wait_for_timeout(2500)
 
-    # Certains sites (ex. Castorama) n'affichent la vraie disponibilité qu'après
-    # avoir renseigné un code postal. Si sites.json le prévoit, on le fait ici.
-    if site.get("postal_code_input_testid"):
+    # Certains sites n'affichent la vraie disponibilité qu'après avoir renseigné
+    # un code postal. Si sites.json le prévoit, on le fait ici. Deux méthodes
+    # de repérage du champ sont supportées : par data-testid, ou par placeholder
+    # (avec éventuellement un bouton à cliquer d'abord pour ouvrir le champ).
+    if site.get("postal_code_value"):
         try:
-            field = page.locator(f'[data-testid="{site["postal_code_input_testid"]}"]')
-            field.fill(site.get("postal_code_value", ""))
-            submit_text = site.get("postal_code_submit_text")
-            if submit_text:
-                page.get_by_role("button", name=submit_text).click()
-            page.wait_for_timeout(2500)
+            trigger_selector = site.get("geoloc_trigger_selector")
+            if trigger_selector:
+                page.locator(trigger_selector).click()
+                page.wait_for_timeout(1000)
+
+            if site.get("postal_code_input_testid"):
+                field = page.locator(f'[data-testid="{site["postal_code_input_testid"]}"]')
+            elif site.get("postal_code_input_placeholder"):
+                field = page.get_by_placeholder(site["postal_code_input_placeholder"])
+            else:
+                field = None
+
+            if field is not None:
+                field.fill(site["postal_code_value"])
+                submit_text = site.get("postal_code_submit_text")
+                if submit_text:
+                    page.get_by_role("button", name=submit_text).click()
+                else:
+                    field.press("Enter")
+                page.wait_for_timeout(2500)
         except Exception as e:
             log(f"{site['name']}: impossible de renseigner le code postal ({e})")
 
