@@ -8,9 +8,8 @@ Usage:
     python main.py --reset    # remet l'état à zéro (utile après un premier lancement pour ne pas
                                # être submergé si un site est déjà en stock)
 
-Planifie ce script avec cron (Linux/Mac) ou le Planificateur de tâches (Windows) toutes les
-15-30 minutes. Ne descends pas sous 10 minutes : les sites peuvent bloquer une IP qui les
-sollicite trop souvent.
+Planifie ce script avec cron (Linux/Mac) ou le Planificateur de tâches (Windows). Ne descends pas
+sous 10 minutes en local : les sites peuvent bloquer une IP qui les sollicite trop souvent.
 """
 
 import json
@@ -122,6 +121,29 @@ def send_email_notification(subject: str, body: str) -> None:
         log(f"ERREUR envoi email : {e}")
 
 
+def send_ntfy_notification(title: str, body: str) -> None:
+    topic = os.environ.get("NTFY_TOPIC")
+    if not topic:
+        log("ATTENTION: NTFY_TOPIC manquant, notification push non envoyée.")
+        return
+    try:
+        import urllib.request
+        req = urllib.request.Request(
+            f"https://ntfy.sh/{topic}",
+            data=body.encode("utf-8"),
+            headers={
+                "Title": title.encode("utf-8"),
+                "Priority": "urgent",
+                "Tags": "rotating_light",
+            },
+            method="POST",
+        )
+        urllib.request.urlopen(req, timeout=10)
+        log("Notification push envoyée.")
+    except Exception as e:
+        log(f"ERREUR envoi notification push : {e}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="N'envoie pas de notification, ne sauvegarde pas l'état")
@@ -183,6 +205,7 @@ def main():
         log(body)
         if not args.dry_run:
             send_email_notification(f"🟢 {product_name} en stock !", body)
+            send_ntfy_notification(f"🟢 {product_name} en stock !", body)
     else:
         log("Aucun nouveau retour en stock détecté.")
 
