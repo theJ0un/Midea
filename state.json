@@ -1,52 +1,52 @@
 {
   "Leroy Merlin": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:16:18.428734+00:00",
+    "last_checked": "2026-07-14T19:21:39.155573+00:00",
     "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html"
   },
   "Castorama": {
     "status": "IN_STOCK",
-    "last_checked": "2026-07-14T19:16:31.363949+00:00",
+    "last_checked": "2026-07-14T19:21:50.240077+00:00",
     "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd"
   },
   "Amazon.fr": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:16:41.125410+00:00",
+    "last_checked": "2026-07-14T19:22:01.802489+00:00",
     "url": "https://www.amazon.fr/Climatiseur-Climatisation-rafra%C3%AEchisseur-d%C3%A9shumidificateur-ventilateur/dp/B0CY2YW8BT"
   },
   "ManoMano": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:16:51.046061+00:00",
+    "last_checked": "2026-07-14T19:22:14.455466+00:00",
     "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402"
   },
   "Ventigo": {
     "status": "IN_STOCK",
-    "last_checked": "2026-07-14T19:17:04.090134+00:00",
+    "last_checked": "2026-07-14T19:22:26.511292+00:00",
     "url": "https://www.ventigo.fr/fr_FR/p/climatiseur-mobile-split-midea-portasplit-35-kw/38775/"
   },
   "Darty": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:17:15.037829+00:00",
+    "last_checked": "2026-07-14T19:22:37.787041+00:00",
     "url": "https://www.darty.com/nav/achat/gros_electromenager/chauffage_climatisation/climatiseur/midea_mmcs-12hrn8-qrd0.html"
   },
   "Boulanger": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:17:25.144273+00:00",
+    "last_checked": "2026-07-14T19:22:48.240853+00:00",
     "url": "https://www.boulanger.com/c/climatiseur/brand~midea"
   },
   "Cdiscount": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:17:36.792357+00:00",
+    "last_checked": "2026-07-14T19:23:02.118226+00:00",
     "url": "https://www.cdiscount.com/search/10/portasplit.html"
   },
   "Fnac": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:17:46.066192+00:00",
+    "last_checked": "2026-07-14T19:23:11.696097+00:00",
     "url": "https://www.fnac.com/MIDEA-Climatiseur-Split-Mobile-Reversible-Froid-Chaud-3500W-12000BTU-WiFi-deshumidificateur-ventilateur-jusqu-a-40m2-kit-fenetre-inclus/a21457105/w-4"
   },
   "Tecnomat (ex-Bricoman)": {
     "status": "UNKNOWN",
-    "last_checked": "2026-07-14T19:17:56.419285+00:00",
+    "last_checked": "2026-07-14T19:23:24.508315+00:00",
     "url": "https://www.tecnomat.fr/produits/climatiseur-mobile-reversible-portasplit-midea-25088072.html"
   }
 }
