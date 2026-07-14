@@ -4468,3 +4468,17 @@ Call log:
 [2026-07-14 22:07:37 UTC] Fnac: UNKNOWN
 [2026-07-14 22:07:48 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-14 22:07:55 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-14 22:11:37 UTC] Leroy Merlin: UNKNOWN
+[2026-07-14 22:11:50 UTC] Castorama: IN_STOCK
+[2026-07-14 22:12:02 UTC] Amazon.fr: UNKNOWN
+[2026-07-14 22:12:12 UTC] ManoMano: UNKNOWN
+[2026-07-14 22:13:01 UTC] Ventigo: erreur de chargement (Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.ventigo.fr/fr_FR/p/climatiseur-mobile-split-midea-portasplit-35-kw/38775/", waiting until "domcontentloaded"
+)
+[2026-07-14 22:13:11 UTC] Darty: UNKNOWN
+[2026-07-14 22:13:23 UTC] Boulanger: UNKNOWN
+[2026-07-14 22:13:36 UTC] Cdiscount: UNKNOWN
+[2026-07-14 22:13:47 UTC] Fnac: UNKNOWN
+[2026-07-14 22:14:00 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-14 22:14:04 UTC] Aucun nouveau retour en stock détecté.
