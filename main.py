@@ -95,6 +95,7 @@ def check_site_status(page, site: dict) -> str:
                 field = None
 
             if field is not None:
+                field.wait_for(state="visible", timeout=20000)
                 field.scroll_into_view_if_needed(timeout=5000)
                 field.fill(site["postal_code_value"], timeout=10000)
                 submit_text = site.get("postal_code_submit_text")
