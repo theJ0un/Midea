@@ -66,7 +66,7 @@ def check_site_status(page, site: dict) -> str:
     page.goto(site["url"], wait_until="domcontentloaded", timeout=45000)
     # Laisse largement le temps au JS de finir de peupler la page
     # (bouton stock, bandeau rupture, etc. arrivent souvent après le chargement initial)
-    page.wait_for_timeout(6000)
+    page.wait_for_timeout(10000)
 
     text = page.inner_text("body").lower()
 
