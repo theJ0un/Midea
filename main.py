@@ -64,9 +64,47 @@ def save_json(path: Path, data) -> None:
 def check_site_status(page, site: dict) -> str:
     """Charge la page et retourne IN_STOCK / OUT_OF_STOCK / UNKNOWN."""
     page.goto(site["url"], wait_until="domcontentloaded", timeout=45000)
-    # Laisse largement le temps au JS de finir de peupler la page
-    # (bouton stock, bandeau rupture, etc. arrivent souvent après le chargement initial)
     page.wait_for_timeout(10000)
+
+    # Ferme les bandeaux de cookies courants, qui peuvent bloquer l'interaction
+    # avec des champs situés plus bas dans la page (ex. le champ code postal).
+    for cookie_text in ["Accepter", "Tout accepter", "J'accepte", "Accepter tout", "OK"]:
+        try:
+            btn = page.get_by_role("button", name=cookie_text)
+            if btn.is_visible(timeout=1500):
+                btn.click()
+                page.wait_for_timeout(1000)
+                break
+        except Exception:
+            pass
+
+    # Certains sites n'affichent la vraie disponibilité qu'après avoir renseigné
+    # un code postal. Si sites.json le prévoit, on le fait ici.
+    if site.get("postal_code_value"):
+        try:
+            trigger_selector = site.get("geoloc_trigger_selector")
+            if trigger_selector:
+                page.locator(trigger_selector).click()
+                page.wait_for_timeout(1000)
+
+            if site.get("postal_code_input_testid"):
+                field = page.locator(f'[data-testid="{site["postal_code_input_testid"]}"]')
+            elif site.get("postal_code_input_placeholder"):
+                field = page.get_by_placeholder(site["postal_code_input_placeholder"])
+            else:
+                field = None
+
+            if field is not None:
+                field.scroll_into_view_if_needed(timeout=5000)
+                field.fill(site["postal_code_value"], timeout=10000)
+                submit_text = site.get("postal_code_submit_text")
+                if submit_text:
+                    page.get_by_role("button", name=submit_text).click()
+                else:
+                    field.press("Enter")
+                page.wait_for_timeout(3000)
+        except Exception as e:
+            log(f"{site['name']}: impossible de renseigner le code postal ({e})")
 
     text = page.inner_text("body").lower()
 
