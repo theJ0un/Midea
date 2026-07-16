@@ -12154,3 +12154,18 @@ Call log:
 - Castorama : https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd
 [2026-07-16 18:58:59 UTC] Email envoyé à jounaid.maurice@gmail.com : 🟢 Midea PortaSplit 3,5 kW / 12000 BTU en stock !
 [2026-07-16 18:58:59 UTC] Notification push envoyée.
+[2026-07-16 19:01:51 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 19:02:27 UTC] Castorama: impossible de renseigner le code postal (Locator.wait_for: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]") to be visible
+)
+[2026-07-16 19:02:27 UTC] Castorama: IN_STOCK
+[2026-07-16 19:02:43 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 19:02:59 UTC] ManoMano: UNKNOWN
+[2026-07-16 19:03:15 UTC] Ventigo: IN_STOCK
+[2026-07-16 19:03:29 UTC] Darty: UNKNOWN
+[2026-07-16 19:03:44 UTC] Boulanger: UNKNOWN
+[2026-07-16 19:04:00 UTC] Cdiscount: UNKNOWN
+[2026-07-16 19:04:17 UTC] Fnac: UNKNOWN
+[2026-07-16 19:04:32 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-16 19:04:35 UTC] Aucun nouveau retour en stock détecté.
