@@ -10487,3 +10487,18 @@ Call log:
 - Fnac : https://www.fnac.com/MIDEA-Climatiseur-Split-Mobile-Reversible-Froid-Chaud-3500W-12000BTU-WiFi-deshumidificateur-ventilateur-jusqu-a-40m2-kit-fenetre-inclus/a21457105/w-4
 [2026-07-16 10:14:55 UTC] Email envoyé à jounaid.maurice@gmail.com : 🟢 Midea PortaSplit 3,5 kW / 12000 BTU en stock !
 [2026-07-16 10:14:55 UTC] Notification push envoyée.
+[2026-07-16 10:16:33 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 10:17:09 UTC] Castorama: impossible de renseigner le code postal (Locator.wait_for: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]") to be visible
+)
+[2026-07-16 10:17:09 UTC] Castorama: OUT_OF_STOCK
+[2026-07-16 10:17:24 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 10:17:40 UTC] ManoMano: UNKNOWN
+[2026-07-16 10:17:56 UTC] Ventigo: IN_STOCK
+[2026-07-16 10:18:10 UTC] Darty: UNKNOWN
+[2026-07-16 10:18:25 UTC] Boulanger: UNKNOWN
+[2026-07-16 10:18:42 UTC] Cdiscount: UNKNOWN
+[2026-07-16 10:18:58 UTC] Fnac: UNKNOWN
+[2026-07-16 10:19:12 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-16 10:19:18 UTC] Aucun nouveau retour en stock détecté.
