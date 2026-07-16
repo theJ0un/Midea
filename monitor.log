@@ -9219,3 +9219,18 @@ Call log:
 [2026-07-16 03:34:19 UTC] Fnac: UNKNOWN
 [2026-07-16 03:34:33 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-16 03:34:38 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-16 03:36:11 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 03:36:49 UTC] Castorama: impossible de renseigner le code postal (Locator.wait_for: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]") to be visible
+)
+[2026-07-16 03:36:49 UTC] Castorama: IN_STOCK
+[2026-07-16 03:37:06 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 03:37:19 UTC] ManoMano: UNKNOWN
+[2026-07-16 03:37:36 UTC] Ventigo: IN_STOCK
+[2026-07-16 03:37:53 UTC] Darty: UNKNOWN
+[2026-07-16 03:38:09 UTC] Boulanger: UNKNOWN
+[2026-07-16 03:38:27 UTC] Cdiscount: UNKNOWN
+[2026-07-16 03:38:42 UTC] Fnac: UNKNOWN
+[2026-07-16 03:38:58 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-16 03:39:03 UTC] Aucun nouveau retour en stock détecté.
