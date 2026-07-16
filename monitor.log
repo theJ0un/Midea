@@ -11988,3 +11988,26 @@ Call log:
 [2026-07-16 18:08:41 UTC] Fnac: UNKNOWN
 [2026-07-16 18:08:57 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-16 18:09:04 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-16 18:11:38 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 18:11:56 UTC] Castorama: impossible de renseigner le code postal (Locator.click: Error: strict mode violation: get_by_role("button", name="Ajouter") resolved to 3 elements:
+    1) <button type="submit" aria-busy="false" data-testid="postcode-add" class="relative inline-flex items-center justify-center gap-2xs rounded-button text-center text-size-button font-bold leading-button outline-offset-2 transition-colors duration-normal ease-ease-out disabled:cursor-not-allowed disabled:aria-[busy=false]:border-color-transparent disabled:aria-[busy=false]:bg-button-disabled disabled:aria-[busy=false]:text-color-button-disabled disabled:aria-[busy=false]:hover:bg-button-disabled disabled:…>Ajouter</button> aka get_by_test_id("postcode-add")
+    2) <button disabled type="submit" aria-busy="false" data-testid="product-cta-button" aria-label="Ajouter 1 article au panier Climatiseur portasplit Midea réversible 3500W" class="relative inline-flex items-center justify-center gap-2xs rounded-button text-center text-size-button font-bold leading-button outline-offset-2 transition-colors duration-normal ease-ease-out disabled:cursor-not-allowed disabled:aria-[busy=false]:border-color-transparent disabled:aria-[busy=false]:bg-button-disabled disabled:aria…>Ajouter au panier</button> aka get_by_test_id("product-sticky-bar").get_by_test_id("product-cta-button")
+    3) <button disabled type="submit" aria-busy="false" data-testid="product-cta-button" aria-label="Ajouter 1 article au panier Climatiseur portasplit Midea réversible 3500W" class="relative inline-flex items-center justify-center gap-2xs rounded-button text-center text-size-button font-bold leading-button outline-offset-2 transition-colors duration-normal ease-ease-out disabled:cursor-not-allowed disabled:aria-[busy=false]:border-color-transparent disabled:aria-[busy=false]:bg-button-disabled disabled:aria…>Ajouter au panier</button> aka locator("#add-to-basket-cta-section-main").get_by_test_id("product-cta-button")
+
+Call log:
+  - waiting for get_by_role("button", name="Ajouter")
+)
+[2026-07-16 18:11:56 UTC] Castorama: IN_STOCK
+[2026-07-16 18:12:11 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 18:12:28 UTC] ManoMano: UNKNOWN
+[2026-07-16 18:12:47 UTC] Ventigo: IN_STOCK
+[2026-07-16 18:13:03 UTC] Darty: UNKNOWN
+[2026-07-16 18:13:17 UTC] Boulanger: UNKNOWN
+[2026-07-16 18:13:35 UTC] Cdiscount: UNKNOWN
+[2026-07-16 18:13:48 UTC] Fnac: UNKNOWN
+[2026-07-16 18:14:04 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-16 18:14:10 UTC] Midea PortaSplit 3,5 kW / 12000 BTU vient de repasser en stock sur :
+
+- Castorama : https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd
+[2026-07-16 18:14:11 UTC] Email envoyé à jounaid.maurice@gmail.com : 🟢 Midea PortaSplit 3,5 kW / 12000 BTU en stock !
+[2026-07-16 18:14:12 UTC] Notification push envoyée.
