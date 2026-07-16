@@ -10072,3 +10072,22 @@ Call log:
 [2026-07-16 08:04:45 UTC] Fnac: UNKNOWN
 [2026-07-16 08:04:58 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-16 08:05:01 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-16 08:06:06 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 08:06:43 UTC] Castorama: impossible de renseigner le code postal (Locator.wait_for: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]") to be visible
+)
+[2026-07-16 08:06:43 UTC] Castorama: IN_STOCK
+[2026-07-16 08:06:59 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 08:07:14 UTC] ManoMano: UNKNOWN
+[2026-07-16 08:07:32 UTC] Ventigo: IN_STOCK
+[2026-07-16 08:07:48 UTC] Darty: UNKNOWN
+[2026-07-16 08:08:05 UTC] Boulanger: UNKNOWN
+[2026-07-16 08:08:23 UTC] Cdiscount: UNKNOWN
+[2026-07-16 08:08:39 UTC] Fnac: UNKNOWN
+[2026-07-16 08:08:53 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-16 08:08:59 UTC] Midea PortaSplit 3,5 kW / 12000 BTU vient de repasser en stock sur :
+
+- Castorama : https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd
+[2026-07-16 08:09:01 UTC] Email envoyé à jounaid.maurice@gmail.com : 🟢 Midea PortaSplit 3,5 kW / 12000 BTU en stock !
+[2026-07-16 08:09:01 UTC] Notification push envoyée.
