@@ -8725,3 +8725,22 @@ Call log:
 [2026-07-16 01:04:25 UTC] Fnac: UNKNOWN
 [2026-07-16 01:04:38 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-16 01:04:42 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-16 01:06:22 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 01:06:41 UTC] Castorama: impossible de renseigner le code postal (Locator.click: Error: strict mode violation: get_by_role("button", name="Ajouter") resolved to 3 elements:
+    1) <button type="submit" aria-busy="false" data-testid="postcode-add" class="relative inline-flex items-center justify-center gap-2xs rounded-button text-center text-size-button font-bold leading-button outline-offset-2 transition-colors duration-normal ease-ease-out disabled:cursor-not-allowed disabled:aria-[busy=false]:border-color-transparent disabled:aria-[busy=false]:bg-button-disabled disabled:aria-[busy=false]:text-color-button-disabled disabled:aria-[busy=false]:hover:bg-button-disabled disabled:…>Ajouter</button> aka get_by_test_id("postcode-add")
+    2) <button disabled type="submit" aria-busy="false" data-testid="product-cta-button" aria-label="Ajouter 1 article au panier Climatiseur portasplit Midea réversible 3500W" class="relative inline-flex items-center justify-center gap-2xs rounded-button text-center text-size-button font-bold leading-button outline-offset-2 transition-colors duration-normal ease-ease-out disabled:cursor-not-allowed disabled:aria-[busy=false]:border-color-transparent disabled:aria-[busy=false]:bg-button-disabled disabled:aria…>Ajouter au panier</button> aka get_by_test_id("product-sticky-bar").get_by_test_id("product-cta-button")
+    3) <button disabled type="submit" aria-busy="false" data-testid="product-cta-button" aria-label="Ajouter 1 article au panier Climatiseur portasplit Midea réversible 3500W" class="relative inline-flex items-center justify-center gap-2xs rounded-button text-center text-size-button font-bold leading-button outline-offset-2 transition-colors duration-normal ease-ease-out disabled:cursor-not-allowed disabled:aria-[busy=false]:border-color-transparent disabled:aria-[busy=false]:bg-button-disabled disabled:aria…>Ajouter au panier</button> aka locator("#add-to-basket-cta-section-main").get_by_test_id("product-cta-button")
+
+Call log:
+  - waiting for get_by_role("button", name="Ajouter")
+)
+[2026-07-16 01:06:41 UTC] Castorama: IN_STOCK
+[2026-07-16 01:06:56 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 01:07:11 UTC] ManoMano: UNKNOWN
+[2026-07-16 01:07:27 UTC] Ventigo: IN_STOCK
+[2026-07-16 01:07:44 UTC] Darty: UNKNOWN
+[2026-07-16 01:07:57 UTC] Boulanger: UNKNOWN
+[2026-07-16 01:08:15 UTC] Cdiscount: UNKNOWN
+[2026-07-16 01:08:31 UTC] Fnac: UNKNOWN
+[2026-07-16 01:08:47 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-16 01:08:53 UTC] Aucun nouveau retour en stock détecté.
