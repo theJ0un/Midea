@@ -9411,3 +9411,21 @@ Call log:
 [2026-07-16 04:34:17 UTC] Fnac: UNKNOWN
 [2026-07-16 04:34:31 UTC] Tecnomat (ex-Bricoman): UNKNOWN
 [2026-07-16 04:34:37 UTC] Aucun nouveau retour en stock détecté.
+[2026-07-16 04:36:17 UTC] Leroy Merlin: UNKNOWN
+[2026-07-16 04:36:56 UTC] Castorama: impossible de renseigner le code postal (Locator.wait_for: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]") to be visible
+)
+[2026-07-16 04:36:56 UTC] Castorama: IN_STOCK
+[2026-07-16 04:37:10 UTC] Amazon.fr: UNKNOWN
+[2026-07-16 04:37:24 UTC] ManoMano: UNKNOWN
+[2026-07-16 04:37:41 UTC] Ventigo: IN_STOCK
+[2026-07-16 04:37:57 UTC] Darty: UNKNOWN
+[2026-07-16 04:38:14 UTC] Boulanger: UNKNOWN
+[2026-07-16 04:38:32 UTC] Cdiscount: UNKNOWN
+[2026-07-16 04:38:48 UTC] Fnac: UNKNOWN
+[2026-07-16 04:39:24 UTC] Tecnomat (ex-Bricoman): erreur de chargement (Page.goto: net::ERR_TIMED_OUT at https://www.tecnomat.fr/produits/climatiseur-mobile-reversible-portasplit-midea-25088072.html
+Call log:
+  - navigating to "https://www.tecnomat.fr/produits/climatiseur-mobile-reversible-portasplit-midea-25088072.html", waiting until "domcontentloaded"
+)
+[2026-07-16 04:39:31 UTC] Aucun nouveau retour en stock détecté.
