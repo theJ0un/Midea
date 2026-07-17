@@ -13407,3 +13407,18 @@ Call log:
 - ManoMano : https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402
 [2026-07-17 01:34:28 UTC] Email envoyé à jounaid.maurice@gmail.com : 🟢 Midea PortaSplit 3,5 kW / 12000 BTU en stock !
 [2026-07-17 01:34:29 UTC] Notification push envoyée.
+[2026-07-17 01:36:04 UTC] Leroy Merlin: UNKNOWN
+[2026-07-17 01:36:41 UTC] Castorama: impossible de renseigner le code postal (Locator.wait_for: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"postcode-input\"]") to be visible
+)
+[2026-07-17 01:36:41 UTC] Castorama: IN_STOCK
+[2026-07-17 01:36:56 UTC] Amazon.fr: UNKNOWN
+[2026-07-17 01:37:12 UTC] ManoMano: UNKNOWN
+[2026-07-17 01:37:30 UTC] Ventigo: IN_STOCK
+[2026-07-17 01:37:46 UTC] Darty: UNKNOWN
+[2026-07-17 01:38:01 UTC] Boulanger: UNKNOWN
+[2026-07-17 01:38:16 UTC] Cdiscount: UNKNOWN
+[2026-07-17 01:38:32 UTC] Fnac: UNKNOWN
+[2026-07-17 01:38:48 UTC] Tecnomat (ex-Bricoman): UNKNOWN
+[2026-07-17 01:38:53 UTC] Aucun nouveau retour en stock détecté.
